@@ -1,0 +1,6 @@
+<%= form_with(url: '/calculator/calculate') do |f| %>
+  <%= f.text_field :equation %>
+  <%= f.submit 'Calculate' %>
+<% end %>
+<div name='original'></div>
+<div name='calculation'></div>
